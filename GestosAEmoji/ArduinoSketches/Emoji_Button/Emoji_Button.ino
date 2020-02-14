@@ -19,7 +19,7 @@
 #include <USBKeyboard.h>
 
 // Select an OS:
-//#define MACOS // You'll need to enable and select the unicode keyboard: System Preferences -> Input Sources -> + -> Others -> Unicode Hex Input
+#define MACOS // You'll need to enable and select the unicode keyboard: System Preferences -> Input Sources -> + -> Others -> Unicode Hex Input
 //#define LINUX
 
 #if !defined(MACOS) && !defined(LINUX)
@@ -27,8 +27,8 @@
 #endif
 
 // use table: https://apps.timwhitlock.info/emoji/tables/unicode
-const int bicep = 0x1f4aa;
-const int punch = 0x1f44a;
+const int hello = 0x1f4ab;
+const int thumbsdown = 0x1f44e;
 
 const int buttonPin = 3;
 
@@ -46,7 +46,7 @@ void loop() {
   if (buttonState != previousButtonState) {
     if (buttonState == LOW) {
       // pressed
-      sentUtf8(bicep);
+      sentUtf8(hello);
     } else {
       // released
     }

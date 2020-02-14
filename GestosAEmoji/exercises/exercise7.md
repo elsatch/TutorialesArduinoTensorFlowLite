@@ -1,7 +1,7 @@
-# Exercise 7: Gesture Controlled USB Emoji Keyboard
+# Ejercicio 7: Teclado de emojis controlado por USB
 
-The Emoji_Button example, __ArduinoSketchs/Emoji_Button/Emoji_Button.ino__, shows how to create a USB keyboard that prints and emoji character. (This only works on Linux and macos, so if you're running Windows, find a friend to work on this exercise.)
+El ejemplo Emoji_Button, __ArduinoSketchs/Emoji_Button/Emoji_Button.ino__, muestra cómo crear un teclado USB que imprime y envia el caracter de un emoji. (Esto sólo funciona en Linux y macos, así que si estás ejecutando Windows, busca a un/a amigo/a para hacer este ejercicio.
 
-Try combining the Emoji_Button example with the IMU_Classifier sketch to create an gesture controlled emoji keyboard. 👊
+Intenta combinar el ejemplo dele Emoji_Button con el IMU_Classifier para crear un teclado de emoji basado en gestos.
 
-Next [Exercise 8: Next Steps](exercise8.md)
+Próximo ejercicio: [Ejercicio 8: Próximos pasos](exercise8.md)

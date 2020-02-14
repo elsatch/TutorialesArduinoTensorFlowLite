@@ -1,3 +1,0 @@
-const unsigned char model[] = {
-
-};
