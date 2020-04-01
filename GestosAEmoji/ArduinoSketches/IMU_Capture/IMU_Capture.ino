@@ -12,6 +12,7 @@
 
   Created by Don Coleman, Sandeep Mistry
   Modified by Dominic Pajak, Sandeep Mistry
+  Spanish translation by César García
 
   This example code is in the public domain.
 */
